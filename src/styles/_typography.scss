@@ -1,0 +1,104 @@
+
+/*--------------------------
+    typography
+---------------------------*/
+
+
+
+@font-face {
+    font-family: 'Calibre-SemiBold';
+    // src:url('../font/Calibre-SemiBold.woff') format('woff'),
+    //     url('../font/Calibre-SemiBold.ttf') format('truetype'),
+    //     url('../font/Calibre-Semibold.svg#Calibre-Semibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family:$base_font;
+    font-weight:400;
+    line-height:1.7;
+}
+
+
+.heading {
+    &-primary {
+    }  
+
+    &-secondary {
+    } 
+}
+
+.heading-1 {
+    font-size: 4rem;;
+}
+
+.heading-2 {
+    font-size: 4rem;;
+}
+
+.heading-3 {
+    font-size: 4rem;
+}
+
+.heading-4 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.heading-5 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+}
+
+.pri-color {
+    color: $primary;
+}
+.sec-color {
+    color: $primary;
+}
+
+
+.dst {
+  font-size:1.2rem;
+}
+
+.dnt {
+  font-size:1.4rem;
+}
+
+.dlt {
+  font-size:1.6rem;
+}
+
+.dxlt {
+  font-size:2rem;
+}
+
+.wst {
+  font-size:1.4rem;
+}
+
+.wnt {
+  font-size:1.6rem;
+}
+
+.wlt {
+  font-size:2.4rem;
+}
+
+.wxlt {
+  font-size:3.2rem;
+}
+
+h1,h2,h3,h4,h5,h6,p,input,label,a {
+    font-family:$base_font;
+}
+

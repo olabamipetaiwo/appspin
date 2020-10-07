@@ -1,0 +1,77 @@
+@import './config';
+
+ul {
+    list-style:none;
+}
+
+a {
+    text-decoration:none;
+}
+
+.row {
+    width:100%;
+    min-height:5rem;
+
+    &-1 {
+        flex-basis:100%;
+    }
+
+    &-2 {
+        flex-basis:50%;
+    }
+    &-3 {
+        flex-basis:75%;
+    }
+
+    &-4 {
+        flex-basis:25%;
+    }
+}
+
+button.primary {
+                border:none;
+                outline:none;
+                padding:1rem;
+                background: #7F7CFF;
+                border-radius: 32px;
+                transition:all .2s;
+                cursor:pointer;
+
+                a {
+                    color:#ffffff;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 1.4rem;
+                    line-height: 2.4rem;
+                    color:$white;
+
+                    &:hover {
+                        background-color:rgba($purple,0.8);
+                    }
+                    
+                    svg {
+                        path{
+                            fill:#ffffff;
+                            color:#ffffff;
+                            fill-opacity:1;
+                        }
+                    }
+
+                    span {
+                        color:#ffffff;
+                    }
+                }
+}
+
+.title {
+  font-family: $base_font;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: $title;
+
+  &-white {
+      color:$white;
+  }
+}
